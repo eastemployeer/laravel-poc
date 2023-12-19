@@ -129,6 +129,7 @@ class ComposerStaticInit894ba475c1076f9f6161c32a53245b55
             'Laravel\\SerializableClosure\\' => 28,
             'Laravel\\Sanctum\\' => 16,
             'Laravel\\Prompts\\' => 16,
+            'LaravelPdoOdbc\\' => 15,
         ),
         'I' => 
         array (
@@ -430,6 +431,10 @@ class ComposerStaticInit894ba475c1076f9f6161c32a53245b55
         'Laravel\\Prompts\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/prompts/src',
+        ),
+        'LaravelPdoOdbc\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src',
         ),
         'Illuminate\\Support\\' => 
         array (
@@ -2757,6 +2762,20 @@ class ComposerStaticInit894ba475c1076f9f6161c32a53245b55
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+        'LaravelPdoOdbc\\Contracts\\OdbcDriver' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/Contracts/OdbcDriver.php',
+        'LaravelPdoOdbc\\Flavours\\Snowflake\\Builders\\Schema' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/Flavours/Snowflake/Builders/Schema.php',
+        'LaravelPdoOdbc\\Flavours\\Snowflake\\Concerns\\GrammarHelper' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/Flavours/Snowflake/Concerns/GrammarHelper.php',
+        'LaravelPdoOdbc\\Flavours\\Snowflake\\Connection' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/Flavours/Snowflake/Connection.php',
+        'LaravelPdoOdbc\\Flavours\\Snowflake\\Connector' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/Flavours/Snowflake/Connector.php',
+        'LaravelPdoOdbc\\Flavours\\Snowflake\\Grammars\\ChangeColumn' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/Flavours/Snowflake/Grammars/ChangeColumn.php',
+        'LaravelPdoOdbc\\Flavours\\Snowflake\\Grammars\\Query' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/Flavours/Snowflake/Grammars/Query.php',
+        'LaravelPdoOdbc\\Flavours\\Snowflake\\Grammars\\Schema' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/Flavours/Snowflake/Grammars/Schema.php',
+        'LaravelPdoOdbc\\Flavours\\Snowflake\\PDO\\Statement74' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/Flavours/Snowflake/PDO/Statement74.php',
+        'LaravelPdoOdbc\\Flavours\\Snowflake\\PDO\\Statement80' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/Flavours/Snowflake/PDO/Statement80.php',
+        'LaravelPdoOdbc\\Flavours\\Snowflake\\Processor' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/Flavours/Snowflake/Processor.php',
+        'LaravelPdoOdbc\\ODBCConnection' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/ODBCConnection.php',
+        'LaravelPdoOdbc\\ODBCConnector' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/ODBCConnector.php',
+        'LaravelPdoOdbc\\ODBCServiceProvider' => __DIR__ . '/..' . '/yoramdelangen/laravel-pdo-odbc/src/ODBCServiceProvider.php',
         'Laravel\\Prompts\\Concerns\\Colors' => __DIR__ . '/..' . '/laravel/prompts/src/Concerns/Colors.php',
         'Laravel\\Prompts\\Concerns\\Cursor' => __DIR__ . '/..' . '/laravel/prompts/src/Concerns/Cursor.php',
         'Laravel\\Prompts\\Concerns\\Erase' => __DIR__ . '/..' . '/laravel/prompts/src/Concerns/Erase.php',
