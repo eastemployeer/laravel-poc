@@ -1,0 +1,14 @@
+{
+    "name": "dxw/phar-install",
+    "description": "",
+    "homepage": "https://github.com/dxw/phar-install",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mallory Adams",
+            "email": "mallory@dxw.com",
+            "homepage": "https://www.dxw.com"
+        }
+    ],
+    "bin": ["bin/phar-install"]
+}
